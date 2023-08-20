@@ -56,6 +56,34 @@ Now you will have the code added to your project for the Prompt Templating exerc
 
 Look at the `README-ai-azure-prompt-templating.md` file for instructions.
 
+Your directory tree should look like:
+
+```shell
+$ tree
+.
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── README-ai-azure-prompt-templating.md
+├── README.md
+└── src
+    └── main
+        ├── java
+        │   └── com
+        │       └── xkcd
+        │           └── ai
+        │               ├── Application.java
+        │               ├── helloworld
+        │               │   ├── Completion.java
+        │               │   └── SimpleAiController.java
+        │               └── prompttemplate
+        │                   └── PromptTemplateController.java
+        └── resources
+            ├── application.properties
+            └── prompts
+                └── joke-prompt.st
+```
+
 ## Exercise #3 - ...
 
 rinse, lather, repeat.
