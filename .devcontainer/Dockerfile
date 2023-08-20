@@ -13,3 +13,6 @@ RUN curl -SsL https://packages.httpie.io/deb/KEY.gpg | sudo gpg --dearmor -o /us
     echo "deb [arch=amd64 signed-by=/usr/share/keyrings/httpie.gpg] https://packages.httpie.io/deb ./" > /etc/apt/sources.list.d/httpie.list && \
     apt-get update -q && \
     apt-get install -yq httpie
+
+# Add alias for spring
+RUN echo 'alias spring="java -jar /workspaces/spring-ai-azure-workshop/setup/spring-cli/spring-cli-0.7.0.jar"' >> /etc/bash.bashrc
