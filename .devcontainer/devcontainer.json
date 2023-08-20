@@ -33,7 +33,7 @@
 			"installMaven": true
 		}
 	},
-	"postCreateCommand": "echo 'alias spring=\"java -jar ~/setup/spring-cli/spring-cli-0.7.0.jar\"' >> ~/.bashrc && source ~/.bashrc"
+	"postCreateCommand": "./.devcontainer/scripts/postCreateCommand.sh"
 
 
 }
