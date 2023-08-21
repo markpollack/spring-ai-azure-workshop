@@ -1,11 +1,17 @@
 # spring-ai-workshop
 Workshop material for Spring AI
 
-## Create an alias
+The workshop uses the [Spring CLI](https://docs.spring.io/spring-cli/reference/) project.
 
-```shell
-source .devcontainer/scripts/postCreateCommand.sh
-```
+It provides a command line application named `spring`
+
+You will create the code for Exercise #1, the "Hello World" AI project,  using the command `spring boot new`.  See below.
+
+The code for additional exercises will use the command `spring boot add`
+
+To access the projects used in these exercises, we first need to add the `ai-azure-catalog`.
+
+Let's get started.
 
 ## Add exercises to the spring project catalog
 
@@ -14,6 +20,11 @@ spring project-catalog add azure-ai https://github.com/rd-1-2022/ai-azure-catalo
 ```
 
 ## Exercise #1 - Create the first Hello World project
+
+Create a new project using the following command.  You can pick a different 
+
+* name:  The following example uses the name `myai` as the project name
+* package name:  The following example uses the name `com.xkcd.ai` in honor of [XKCD](https://xkcd.com/).  
 
 ```shell
 spring boot new myai ai-azure-hello-world --package-name com.xkcd.ai
@@ -42,17 +53,15 @@ $ tree
             └── application.properties
 ```
 
-## Exercise #2 - Prompt Templating
+Follow the instuctions in `README.md` to complete the exercise.
 
-First clean up your build directory.
+## Exercise #2 - Prompt Templating
 
 Now add the code for Prompt Templating
 
 ```shell
 spring boot add ai-azure-prompt-templating
 ```
-
-Now you will have the code added to your project for the Prompt Templating exercise.
 
 Look at the `README-ai-azure-prompt-templating.md` file for instructions.
 
@@ -84,14 +93,52 @@ $ tree
                 └── joke-prompt.st
 ```
 
-## Exercise #3 - ...
+## Exercise #3 - Prompt Roles
 
-rinse, lather, repeat.
+Now add the code for the Prompt Roles exercise.
+
+```shell
+spring boot add ai-azure-prompt-roles
+```
+
+Look at the `README-ai-azure-prompt-roles.md` file for instructions.
 
 
+## Exercise #4 - Output Parser
+
+Now add the code for Output Parser exercise.
+
+```shell
+spring boot add ai-azure-output-parser
+```
+
+Look at the `README-ai-azure-output-parser.md` file for instructions.
+
+## Exercise #5 - Chains
+
+Now add the code for Chains exercise.
+
+```shell
+spring boot add ai-azure-chains
+```
+
+Look at the `README-ai-azure-chains.md` file for instructions.
 
 
-Follow the instructions in the `README.md` file for the exercise.
+## Exercise #6 - Stuff the Prompt
 
+Now add the code for the Stuff the Prompt exercise.
 
+```shell
+spring boot add ai-azure-stuff-prompt
+```
+Look at the `README-ai-azure-chains.md` file for instructions.
 
+## Exercise #7 - Retrieval Augmented Generation
+
+Now add the code for the Retrieval Augmented Generation exercise.
+
+```shell
+spring boot add ai-azure-rag
+```
+Look at the `README-ai-azure-retrieval-augmented-generation.md` file for instructions.
