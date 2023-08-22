@@ -32,6 +32,11 @@ spring boot new myai ai-azure-hello-world --package-name com.xkcd.ai
 
 You will now have a project with the structure shown below
 
+
+```shell
+cd myai
+```
+
 ```shell
 $ tree
 .
@@ -56,6 +61,8 @@ $ tree
 Follow the instuctions in `README.md` to complete the exercise.
 
 ## Exercise #2 - Prompt Templating
+
+** MAKE SURE YOU ARE IN THE ROOT OF THE JAVA PROJECT **
 
 Now add the code for Prompt Templating
 
