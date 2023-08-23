@@ -1,9 +1,10 @@
 # spring-ai-workshop
 Workshop material for Spring AI
 
-The workshop uses the [Spring CLI](https://docs.spring.io/spring-cli/reference/) project.
+The workshop uses the Spring CLI project.  If you are not using GitHub codespaces, [download the Spring CLI](https://github.com/spring-projects-experimental/spring-cli/releases).
+You can browse the [Spring CLI Documentation](https://docs.spring.io/spring-cli/reference/0.7-SNAPSHOT/index.html) to learn more about its features.
 
-It provides a command line application named `spring`
+A quick summary is that the Spring CLI provides a command line application named `spring`
 
 You will create the code for Exercise #1, the "Hello World" AI project,  using the command `spring boot new`.  See below.
 
@@ -11,7 +12,10 @@ The code for additional exercises will use the command `spring boot add`
 
 To access the projects used in these exercises, we first need to add the `ai-azure-catalog`.
 
-Let's get started.
+
+You will also need to have the `curl` like tool [httpie](https://httpie.io/docs/cli/installation) installed.
+
+Now, let's get started!
 
 ## Add exercises to the spring project catalog
 
